@@ -1,0 +1,47 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+
+    input{
+        padding: 3px;
+        border-radius: 10px;
+        margin-left: 15px;
+        border: 1px solid rgb(175, 152, 152);
+        margin-bottom: 10px;
+        background-color: inherit;
+    }
+
+    label{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+
+    }
+}
+
+.Form__button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 25px;
+    max-height: 35px;
+    border-radius: 15px;
+    border: 1px solid rgb(175, 152, 152);
+    margin-top: 25px;
+    background-color: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.Form__button:hover, .Form__button:focus{
+    background-color: rgb(245, 247, 238);
+    border-color: rgb(90, 158, 84);
+    color: rgb(90, 158, 84);
+}
+
+h2{
+    text-align: center;
+}

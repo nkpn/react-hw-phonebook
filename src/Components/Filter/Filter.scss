@@ -1,0 +1,20 @@
+.Filter{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    padding: 3px;
+    border-radius: 10px;
+    margin-left: 15px;
+    border-color: rgb(175, 152, 152);
+    margin-bottom: 10px;
+    background-color: inherit;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}

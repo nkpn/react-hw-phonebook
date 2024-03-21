@@ -1,0 +1,44 @@
+.Contact__list{
+    margin: 25px 0 0 0;
+    padding: 0;
+    list-style: circle;
+}
+
+.Contact__item{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+
+}
+
+.Contact__content{
+    font-weight: 700;
+}
+
+.Contact__number{
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.Contact__button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 25px;
+    max-height: 35px;
+    border-radius: 15px;
+    border: 1px solid rgba(226, 226, 221, 0.829);
+
+    background-color: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.Contact__button:hover, .Contact__button:focus{
+    background-color: rgb(245, 247, 238);
+    border-color:rgb(204, 43, 43);
+    color: rgb(204, 43, 43);
+}
